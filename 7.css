@@ -1,7 +1,11 @@
 h2{
-    width: 300px;
-    margin-left: 100px ;
-    font-family: segoe ui light;
+    width: 500px;
+    margin-left: 250px ;
+    font-family: segoe ui;
+}
+h4{
+    width: 500px;
+    margin-left:300px;
 }
 img{
     width: 500px;
@@ -9,4 +13,16 @@ img{
 }
 ul{
     width: 500px;
+    margin-left: 275px;
+    font-size: 12px;
+    font-family: segoe ui;
+    color: rgb(170, 115, 115);
+}
+hr{
+    width: 500px;
+    margin-left: 300px;
+}
+p{
+    width: 500px;
+    margin-left: 300px;
 }
