@@ -16,12 +16,14 @@ img{
     width: 500px;
     margin-left: 300px;
 }
-ul{
+li{
     width: 500px;
     margin-left: 275px;
     font-size: 12px;
     font-family: segoe ui;
-    color: rgb(170, 115, 115);
+}
+a.link{
+    color: rgb(163, 43, 43);
 }
 hr{
     width: 500px;
