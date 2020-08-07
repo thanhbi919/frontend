@@ -3,6 +3,11 @@ h2{
     margin-left: 250px ;
     font-family: segoe ui;
 }
+h4.so1{
+    width:500px;
+    margin-left: 300px;
+    font-family: segoe ui;
+}
 h4{
     width: 500px;
     margin-left:300px;
@@ -25,4 +30,15 @@ hr{
 p{
     width: 500px;
     margin-left: 300px;
+}
+div.chiacot{
+    display:flex;
+    width: 200px;
+}img.a{
+    width: 300px;
+    margin-left: 300px;   
+}
+img.b{
+    width: 200px;
+    margin-left: 10px;
 }
