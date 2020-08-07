@@ -1,23 +1,23 @@
 div.to1{
     display: flex;
     width:900px;
-    /* height: 260px; */
     margin-left: 300px;
     border-bottom: 1px solid rgb(129, 18, 18);
     padding-bottom: 20px;
-}
+    justify-content: space-between;
+    margin-bottom:10px ;
+    }
 div.trai{
-    width: 325px;
-    height: 260px;
-    margin-right: 10px;
+    width: 30%;
+
 }
 div.phai{
-    width:565px;
+    width: 65%;
 }
 
 img{
-    margin-top: 10px;
-    margin-bottom: 10px;
     width:100%;
-      height: 240px;
+}
+div.to1 .trai img.anh  {
+    width: 70%;
 }
