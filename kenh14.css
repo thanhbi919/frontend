@@ -1,11 +1,10 @@
-hr{
-    width:900px;
-}
 div.to1{
     display: flex;
     width:900px;
-    height: 260px;
+    /* height: 260px; */
     margin-left: 300px;
+    border-bottom: 1px solid rgb(129, 18, 18);
+    padding-bottom: 20px;
 }
 div.trai{
     width: 325px;
@@ -19,6 +18,6 @@ div.phai{
 img{
     margin-top: 10px;
     margin-bottom: 10px;
-    width:310px;
-    height: 195px;
+    width:100%;
+      height: 240px;
 }
