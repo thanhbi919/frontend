@@ -1,7 +1,18 @@
-h3.mauxanh{
-    color: green;
-}
-h3.chudepchudep{
+.small_news_block {
+    width: 400px;
+    display: flex;
     font-family: segoe ui light;
 
+}
+.small_news_block .left{
+    width: 30%;
+}
+img{
+    width:100%;
+}
+.small_news_block .right{
+    color: rgb(8, 1, 1);
+}
+.small_news_block .right a.right1{
+    display:block;
 }
