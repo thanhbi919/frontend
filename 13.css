@@ -16,13 +16,9 @@ img{
 }
 .small_news_block .right a.a1{
     display:block;
-    text-decoration: non;
+    text-decoration: none;
     color: rgb(13, 5, 27);
 }
 .small_news_block .right .a2{
     font-size: 11px;
-}
-h1{
-    text-decoration: non;
-    font-family: segoe ui light;
 }
