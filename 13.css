@@ -2,6 +2,7 @@
     width: 400px;
     display: flex;
     font-family: segoe ui light;
+    justify-content: space-between;
 
 }
 .small_news_block .left{
@@ -11,8 +12,17 @@ img{
     width:100%;
 }
 .small_news_block .right{
-    color: rgb(8, 1, 1);
+    width: 65%;
 }
-.small_news_block .right a.right1{
+.small_news_block .right a.a1{
     display:block;
+    text-decoration: non;
+    color: rgb(13, 5, 27);
+}
+.small_news_block .right .a2{
+    font-size: 11px;
+}
+h1{
+    text-decoration: non;
+    font-family: segoe ui light;
 }
