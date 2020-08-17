@@ -1,0 +1,38 @@
+.cottrai{
+    font-family: segoe ui light;
+    font-size: 13px;
+    width: 500px;
+    transition: 0.4s;
+
+}
+.cottrai img{
+    width: 100%;
+}
+a.anhvatd{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    /* transition: 0.4s; */
+}
+.chamvao:hover{
+    color:blueviolet;
+}
+a.nguon{
+    font-size:small  ;
+    text-decoration: none;
+    color: rgb(197, 193, 193);
+}
+a.lq{
+    font-size: small;
+    text-decoration: none;
+    color: rgb(197, 193, 193);
+}
+span{
+    font-size: small;
+    text-decoration: none;
+    color: rgb(197, 193, 193);
+}
+.anhvatd h3{
+    margin: auto;
+    padding: a;
+}
