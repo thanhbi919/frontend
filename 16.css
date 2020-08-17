@@ -1,18 +1,14 @@
 ul.menungang{
-    /* display: flex; */
+    display: flex;
     list-style: none;
     width: 900px;
     margin-left: auto ;
     margin-right: auto ;
-    text-align: center;
 }
 .menutren{
     background-color: #2fa1b3;
     height: 30px;
     width: 100%;
-}
-ul.menungang li{
-    display: inline;  
 }
 ul.menungang a{
     color: white;
@@ -24,11 +20,11 @@ ul.menungang a{
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 6px;
-    display: inline-block;
+    display: block;
     transition: 0.4s;
 }
 ul.menungang a:hover{
     background-color: rgb(15, 86, 99);
-    /* padding-top: 3px;
-    padding-bottom: 9px; */
+    padding-top: 3px;
+    padding-bottom: 9px;
 }
