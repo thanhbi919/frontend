@@ -17,6 +17,10 @@ a.anhvatd{
 .chamvao:hover{
     color:blueviolet;
 }
+.anhvatd h3{
+    margin: auto;
+    padding: auto;
+}
 a.nguon{
     font-size:small  ;
     text-decoration: none;
@@ -31,8 +35,4 @@ span{
     font-size: small;
     text-decoration: none;
     color: rgb(197, 193, 193);
-}
-.anhvatd h3{
-    margin: auto;
-    padding: a;
 }
