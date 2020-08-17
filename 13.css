@@ -6,13 +6,13 @@
 
 }
 .small_news_block .left{
-    width: 30%;
+    width: 25%;
 }
 img{
     width:100%;
 }
 .small_news_block .right{
-    width: 65%;
+    width: 70%;
 }
 .small_news_block .right a.a1{
     display:block;
