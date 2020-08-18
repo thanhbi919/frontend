@@ -40,12 +40,37 @@
     margin-top: auto;
     margin-bottom: auto;
 }
-.header-2020 .menu ul{
-    display: flex;
+.header-2020 .menu{
     width: 100%;
+    height:50px ;
     background-color: rgb(36, 113, 148);
 }
-li.a{
+ .menungang{
+    list-style: none;
+    width: 900px;
+    margin-top:10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding:auto;
+    width: 100%;
+    display: flex;
     
+}
+ul.menungang a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-family: segoe ui light;
+    font-size: 15px;
+    padding:6px;
+    margin: 5px;
+  
+    display: block;
+    transition: 0.3s;
+}
+ul.menungang a:hover{
+    color: rgb(15, 57, 77) ;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
