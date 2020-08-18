@@ -1,0 +1,22 @@
+.header-2020 .container{
+    display: flex;
+    height: 66px;
+    width:1200px;
+}
+.logo{
+    display: inline-block;
+    width: 125px;
+    height: 54px;
+    margin:auto;
+    }
+.logo img{
+    width: 100%;
+}
+.header_search {
+    display: flex;
+    width: 500px;
+    height: 50px;
+}
+.header_search .text-search{
+    width:100%
+}
