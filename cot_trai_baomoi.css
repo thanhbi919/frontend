@@ -36,3 +36,19 @@ span{
     text-decoration: none;
     color: rgb(197, 193, 193);
 }
+.cottrai .duoi{
+    display: flex;
+}
+.duoi a{
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    width: 30%;
+    margin: auto;
+    /* justify-content: space-evenly; */
+}
+.duoi h4{
+    width: 100%;  
+    padding:auto;
+}
+
