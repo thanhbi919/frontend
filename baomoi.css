@@ -7,10 +7,12 @@
 }
 .logo{
     display: inline-block;
-    width: 125px;
-    height: 54px;
+    width: 150px;
+    height: 70px;
     margin-left: 0px;
     margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     }
 .logo img{
     width: 100%;
@@ -18,8 +20,10 @@
 .header-2020 .header_search {
     display: flex;
     width: 500px;
-    height: 50px;
+    height: 40px;
     margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .header_search .text-search{
     width:100%
@@ -27,4 +31,21 @@
 
 .header-2020 .header_user{
     margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 35px;
 }
+.header-2020 .mobile{
+    font-size: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header-2020 .menu ul{
+    display: flex;
+    width: 100%;
+    background-color: rgb(36, 113, 148);
+}
+li.a{
+    
+}
+
