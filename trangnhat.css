@@ -4,12 +4,15 @@
     background-color: rgba(105, 104, 105, 0.11);
     font-family: segoe ui light;
     font-size: 15px;
+    border: thick double #32a1ce;
 }
 .chuanghira b.Book{
     width: 100%;
     margin: auto;
-    margin-left: 40px;
+    margin-left: 20px;
+    /* margin-top: 40px; */
     margin-bottom: 10px;
+    padding-top: 10px;
     
 }
 .chuanghira .menu{
@@ -18,7 +21,8 @@
     list-style: none;
     margin: auto;
     margin-top: 10px;
-    margin-left: -10px;
+    margin-left: -30px;
+    margin-bottom: 10px;
     /* display: block; */
     /* transition: 0.4ms; */
     
@@ -46,23 +50,32 @@
 .chuanghira .menucontent{
     width: 100%;
     display: flex;   
+    flex-wrap: wrap;
+    margin: auto;
 }
 .chuanghira .content {
     display: flex;
-    height: 50px;
+    height: auto;
     width: 175px;
-    margin-left: 40px;
+    margin-left: 20px;
+    /* justify-content: center; */
+
 }
 .chuanghira a.content{
     text-decoration: none;
+    text-align:center;
+
 }
 .chuanghira .content img{
     width: 32px;
     height: 32px;
-    
+    margin-right: 4px;
 }
 .chuanghira .content span{
-    padding-top: 5px;
+    line-height: 32px;
+    width: auto;
+    text-align:center;
+    color: rgb(39, 99, 211);
 }
 .chuanghira .content span:hover{
     text-decoration:underline;
