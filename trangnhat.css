@@ -1,10 +1,10 @@
 .chuanghira{
     width: 1100px;
-    height: 242px;
+    height: 200px;
     background-color: rgba(105, 104, 105, 0.11);
     font-family: segoe ui light;
     font-size: 15px;
-    border: thick double #32a1ce;
+    border: thick double #c8dce4;
 }
 .chuanghira b.Book{
     width: 100%;
@@ -42,9 +42,8 @@
 }
 .chuanghira li:hover{
     color: brown;
-    padding-top:3px;
-    padding-bottom: 7px;
-    background-color: rgb(233, 98, 98);
+    text-decoration: unset;
+    /* background-color: rgb(233, 98, 98); */
 }
 
 .chuanghira .menucontent{
