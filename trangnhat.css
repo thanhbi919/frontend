@@ -22,7 +22,7 @@
     margin: auto;
     margin-top: 10px;
     margin-left: -30px;
-    margin-bottom: 10px;
+    
     /* display: block; */
     /* transition: 0.4ms; */
     
@@ -35,15 +35,23 @@
     padding-bottom: 5px;
     padding-right: 10px;
     padding-left: 10px;
+    margin-bottom: 0px;
     transition: 0.3s;
     text-align: center;
     
 
 }
+.chuanghira .menu li hr{
+  
+}
+
 .chuanghira li:hover{
     color: brown;
-    text-decoration: unset;
     /* background-color: rgb(233, 98, 98); */
+}
+
+.chuanghira .hrto{
+
 }
 
 .chuanghira .menucontent{
