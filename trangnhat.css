@@ -35,23 +35,26 @@
     padding-bottom: 5px;
     padding-right: 10px;
     padding-left: 10px;
-    margin-bottom: 0px;
+    margin-bottom: -22px;
     transition: 0.3s;
     text-align: center;
     
 
 }
 .chuanghira .menu li hr{
-  
+    background-color:rgba(105, 104, 105, 0.11);
+    height: 0.05px;
 }
 
 .chuanghira li:hover{
     color: brown;
     /* background-color: rgb(233, 98, 98); */
+    
 }
 
 .chuanghira .hrto{
-
+    background-color:gray;
+    height: 0.05px;
 }
 
 .chuanghira .menucontent{
