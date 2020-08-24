@@ -42,7 +42,7 @@
 
 }
 .chuanghira .menu .hr1{
-    background-color:rgba(21, 10, 88, 0.11);
+    background-color:blue;
     height: 2px;
     visibility: hidden;
     
@@ -51,9 +51,7 @@
     visibility: visible;
 }
 .chuanghira li:hover{
-    color: brown;
-    /* background-color: rgb(233, 98, 98); */
-    
+    color: brown;   
 }
 
 .chuanghira .hrto{
