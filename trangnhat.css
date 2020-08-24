@@ -4,7 +4,7 @@
     background-color: rgba(105, 104, 105, 0.11);
     font-family: segoe ui light;
     font-size: 15px;
-    border: thick double #c8dce4;
+    border:thin;
 }
 .chuanghira b.Book{
     width: 100%;
@@ -36,16 +36,20 @@
     padding-right: 10px;
     padding-left: 10px;
     margin-bottom: -22px;
-    transition: 0.3s;
+    transition: 0.2s;
     text-align: center;
     
 
 }
-.chuanghira .menu li hr{
-    background-color:rgba(105, 104, 105, 0.11);
-    height: 0.05px;
+.chuanghira .menu .hr1{
+    background-color:rgba(21, 10, 88, 0.11);
+    height: 2px;
+    visibility: hidden;
+    
 }
-
+.chuanghira li:hover .hr1{
+    visibility: visible;
+}
 .chuanghira li:hover{
     color: brown;
     /* background-color: rgb(233, 98, 98); */

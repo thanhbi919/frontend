@@ -1,0 +1,43 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html,body{width: 100%}
+a{text-decoration: none; color:black}
+ul{list-style: none}
+.hidden{
+    visibility: hidden;
+}
+.menu{
+    width: 100%;
+}
+.menu ul{
+    display: inline;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.menu ul li a{
+    line-height: 30px;
+    font-size:20px ;
+}
+.menu ul li a i{
+    font-size: 25px;
+    padding-top: 5px;
+}
+.hr1{
+    width: 100%;
+    height: 4px;
+    background-color: blue;
+    margin-top: 20px;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.menu ul li:hover .hr1{
+    visibility: visible;
+}
+.menu>hr{
+    margin-top: -5px!important;
+}
