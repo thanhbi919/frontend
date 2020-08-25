@@ -21,14 +21,25 @@
     background-color: #54aeeb;
     border: thin double #32a1ce;
     border-style: none;
-    transition: 0.3s;
-}
-.firstline .search input:hover  {
-    background-color: #fff;
+    
 }
 
-.firstline .search i{
-    padding-right: 10px;
+.firstline .search input:focus  {
+    background-color: #fff;
+    transition: none;
+}
+
+
+.firstline .search .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
 }
 .chuanghira{
     width: 1100px;
