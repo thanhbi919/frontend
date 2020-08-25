@@ -29,7 +29,6 @@
     transition: none;
 }
 
-
 .firstline .search .form-control-feedback{
     position: absolute;
     z-index: 2;
@@ -41,6 +40,37 @@
     pointer-events: none;
     color: #aaa;
 }
+.onmenuweb{
+    margin: auto;
+    padding-top: 5px;
+    width: 1455px;
+    height: 60px;
+    background-color: #f4f6f8;
+}
+.onmenuweb .inonmenu{
+    display: flex;
+    height: 60px;
+    width: 1400px;
+}
+.onmenuweb span{
+    width: 28px;
+    height: 28px;
+}
+.onmenuweb img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+.onmenuweb a{
+    line-height:28px;
+    text-align: left ;
+    width: auto;
+    height: 18.4px;
+    text-decoration: none;
+}
+
+
+
 .chuanghira{
     width: 1100px;
     height: 242px;
