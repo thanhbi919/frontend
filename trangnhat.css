@@ -21,10 +21,12 @@
     background-color: #54aeeb;
     border: thin double #32a1ce;
     border-style: none;
+    transition: 0.3s;
 }
-.firstline input:hover {
+.firstline .search input:hover  {
     background-color: #fff;
 }
+
 .firstline .search i{
     padding-right: 10px;
 }
