@@ -43,9 +43,10 @@
     color: #aaa;
 }
 .onmenuweb{
-    background-color: #f4f6f8;
-    border-top:2px solid black;
+    border-top:2px solid #757a7e;
+    border-bottom:1px solid #757a7e;
     margin: auto;
+    margin-left: 52px;
     padding-top: 5px;
     width: 1200px;
     height: 45px;
@@ -53,9 +54,7 @@
 }
 .onmenuweb .inonmenu{
     display: flex;
-    height: 60px;
-    width: 1400px;
-    margin-top: 12px;
+    margin-top: 5px;
     margin-left: 30px;
 }
 .onmenuweb span{
@@ -74,6 +73,21 @@
     width: auto;
     height: 18.4px;
     text-decoration: none;
+}
+.menunoibat {
+    margin-left: 52px;
+    font-family: -apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI, Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    width:1200px;
+    height:100px;
+    background-color: #b2bac2;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.menunoibat .firstline1{
+    margin-left: 31px;
+    padding-top:10px;
 }
 
 
