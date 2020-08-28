@@ -1,13 +1,17 @@
+body{
+    background-color:rgb(248, 241, 241);
+}
+/* 1 */
 .firstline{
-    width: 100%;
-    height: 40px;
+    width: 1381px;
+    height: 55px;
     background-color:#006FBB;
     /* padding-bottom: 10px; */
     /* padding-top: 28px; */
     display: flex;
 }
 .firstline img{
-    padding-top: 9px;
+    padding-top: 15px;
     width:140px;
     height: 26x;
     display: inline-block;
@@ -15,7 +19,7 @@
     margin-right: 340px;
 }
 .firstline input{
-    margin-top: 7px;
+    margin-top: 15px;
     padding-left: 35px;
     height: 25px;
     width: 760px;
@@ -23,6 +27,7 @@
     background-color: #54aeeb;
     border: thin double #32a1ce;
     border-style: none;
+    height: 30px;
     
 }
 
@@ -37,20 +42,37 @@
     display: block;
     width: 2.375rem;
     height: 2.375rem;
-    line-height: 2.375rem;
+    line-height: 3.5rem;
     text-align: center;
     pointer-events: none;
     color: #aaa;
 }
+
+.bố{
+    display: flex;
+}
+.bố .trai{
+    width: 990px;
+    height: auto;
+}
+.bố .phai .tienich{
+    width:364px;
+    background-color: rgb(209, 172, 172);
+    height: auto;
+}
+
+
+
+/* 2 */
 .onmenuweb{
     border-top:2px solid #757a7e;
     border-bottom:1px solid #757a7e;
     margin: auto;
     margin-left: 52px;
     padding-top: 5px;
-    width: 1200px;
+    width: 1300px;
     height: 45px;
-    background-color: #f4f6f8;
+    background-color: rgb(229, 226, 226);
 }
 .onmenuweb .inonmenu{
     display: flex;
@@ -74,20 +96,23 @@
     height: 18.4px;
     text-decoration: none;
 }
+
+/* 3 */
 .menunoibat {
     margin-left: 52px;
     font-family: -apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI, Helvetica Neue, sans-serif;
     font-style: normal;
     font-size: 13px;
-    width:1200px;
+    width:1300px;
     height:250px;
-    background-color: #b2bac2;
+    background-color: white;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
 }
 .menunoibat .firstline1{
     margin-left: 30px;
     padding-top:10px;
+    font-size: 16px;
 }
 .menunoibat .line2 {
     display: flex;
@@ -111,15 +136,16 @@
     margin-right: 15px;
 }
 
-
+/* 4 */
 
 .chuanghira{
-    width: 1100px;
+    width: 900px;
     height: 242px;
     background-color: rgba(105, 104, 105, 0.11);
     font-family: segoe ui light;
     font-size: 15px;
     border:thin;
+    margin-left: 52px;
 }
 .chuanghira b.Book{
     width: 100%;
