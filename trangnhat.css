@@ -60,6 +60,25 @@ body{
     background-color: rgb(209, 172, 172);
     height: auto;
 }
+.tienich .line{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-top: 19px;
+    padding-right: 10px;
+    display: inline-block;  
+    
+}
+.tienich .icon a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin:auto;
+    height: 66px;
+    width: 60px;
+    display: inline-block;
+}
+.tienich .icon .img{
+    
+}
 
 
 
