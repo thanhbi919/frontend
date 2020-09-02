@@ -102,5 +102,28 @@ body {
 }
 .menunoibat{
     background-color: rgb(110, 230, 235);
+    width: 1840px;
+    margin-left: 30px;
+}
+.menunoibat .line1{
+    display: block;
+    margin-bottom: 25px;
+}
+.menunoibat .list {
+    margin-left: 10px;
+}
+.menunoibat .list a{
+    text-decoration: none;
+    margin:20px;
+}
+.menunoibat .list .menuicon span{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+.menunoibat .list .menuicon span img{
+    width: 60px;
+    height: 60px;
 
 }
+
