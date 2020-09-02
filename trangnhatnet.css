@@ -42,9 +42,13 @@ body {
     height: 30px;
     
 }
+.topbar ::placeholder{
+    color:rgb(138, 85, 85);
+    visibility: visible;
+}
 
 .topbar .search input:focus  {
-    background-color: #fff;
+    background-color: rgb(223, 198, 198);
     transition: none;
     color: navy;
 }
@@ -58,9 +62,30 @@ body {
     line-height: 3.8rem;
     text-align: center;
     pointer-events: none;
-    color: #aaa;
+    color: rgb(167, 126, 126);
 }
 .menutop{
+    padding
     margin-top:20px;
+    margin-left: 30px;
+    height: 65px;
+    width: 1840px;
     background-color: rgb(194, 196, 192);
+}
+.menutop .tieude {
+    margin-top: 15px;
+    height: 30px;
+    width: auto;
+}
+.menutop span{
+    width: 28px;
+    height: 28px;
+    background-color: rgb(128, 118, 118);
+    border-radius: 50%;
+}
+.menutop img{
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
